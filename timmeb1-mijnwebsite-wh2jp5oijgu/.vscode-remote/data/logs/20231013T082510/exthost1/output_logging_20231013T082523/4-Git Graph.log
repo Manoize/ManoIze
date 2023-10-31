@@ -1,0 +1,39 @@
+[2023-10-13 08:30:24.211] Starting Git Graph ...
+[2023-10-13 08:30:24.224] Using git (version: 2.42.0)
+[2023-10-13 08:30:24.232] Started Git Graph - Ready to use!
+[2023-10-13 08:30:24.233] Searching workspace for new repos ...
+[2023-10-13 08:30:24.276] > git rev-parse --show-toplevel
+[2023-10-13 08:30:24.279] Added new repo: /workspace/mijn-website
+[2023-10-13 08:30:24.280] Completed searching workspace for new repos
+[2023-10-13 08:30:24.280] Showing "Git Graph" Status Bar Item
+[2023-10-13 08:30:24.313] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2023-10-13 08:30:26.243] Created Git Graph View
+[2023-10-13 08:30:27.005] > git branch -a --no-color
+[2023-10-13 08:30:27.015] > git remote
+[2023-10-13 08:30:27.022] > git reflog --format=... refs/stash --
+[2023-10-13 08:30:27.024] Started watching repo: /workspace/mijn-website
+[2023-10-13 08:30:27.046] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2023-10-13 08:30:27.055] > git show-ref -d --head
+[2023-10-13 08:30:27.066] > git status --untracked-files=all --porcelain
+[2023-10-13 08:30:27.105] > git --no-pager config --list -z --includes
+[2023-10-13 08:30:27.115] > git --no-pager config --list -z --includes --local
+[2023-10-13 08:30:27.123] > git --no-pager config --list -z --includes --global
+[2023-10-13 08:30:30.096] > git -c log.showSignature=false show --quiet 9f9161a738f8f57683fb73016a668274cc298249 --format=...
+[2023-10-13 08:30:30.102] > git diff --name-status --find-renames --diff-filter=AMDR -z 9f9161a738f8f57683fb73016a668274cc298249^ 9f9161a738f8f57683fb73016a668274cc298249
+[2023-10-13 08:30:30.107] > git diff --numstat --find-renames --diff-filter=AMDR -z 9f9161a738f8f57683fb73016a668274cc298249^ 9f9161a738f8f57683fb73016a668274cc298249
+[2023-10-13 08:30:34.216] > git show 9f9161a738f8f57683fb73016a668274cc298249^:info.html
+[2023-10-13 08:30:34.222] > git show 9f9161a738f8f57683fb73016a668274cc298249:info.html
+[2023-10-13 08:30:34.286] Stopped watching repo: /workspace/mijn-website
+[2023-10-13 08:30:36.791] > git branch -a --no-color
+[2023-10-13 08:30:36.799] > git remote
+[2023-10-13 08:30:36.806] > git reflog --format=... refs/stash --
+[2023-10-13 08:30:36.809] Started watching repo: /workspace/mijn-website
+[2023-10-13 08:30:36.852] > git -c log.showSignature=false log --max-count=301 --format=... --date-order --branches --tags --remotes HEAD --
+[2023-10-13 08:30:36.858] > git show-ref -d --head
+[2023-10-13 08:30:36.865] > git status --untracked-files=all --porcelain
+[2023-10-13 08:30:38.362] > git -c log.showSignature=false show --quiet c8062ac0f80df526b0f267a68398c5d8e7878555 --format=...
+[2023-10-13 08:30:38.372] > git diff --name-status --find-renames --diff-filter=AMDR -z c8062ac0f80df526b0f267a68398c5d8e7878555^ c8062ac0f80df526b0f267a68398c5d8e7878555
+[2023-10-13 08:30:38.388] > git diff --numstat --find-renames --diff-filter=AMDR -z c8062ac0f80df526b0f267a68398c5d8e7878555^ c8062ac0f80df526b0f267a68398c5d8e7878555
+[2023-10-13 08:30:39.594] > git -c log.showSignature=false show --quiet c6ca9b972d8a60b41d35c755a64da683fde758f7 --format=...
+[2023-10-13 08:30:39.607] > git diff --name-status --find-renames --diff-filter=AMDR -z c6ca9b972d8a60b41d35c755a64da683fde758f7^ c6ca9b972d8a60b41d35c755a64da683fde758f7
+[2023-10-13 08:30:39.612] > git diff --numstat --find-renames --diff-filter=AMDR -z c6ca9b972d8a60b41d35c755a64da683fde758f7^ c6ca9b972d8a60b41d35c755a64da683fde758f7

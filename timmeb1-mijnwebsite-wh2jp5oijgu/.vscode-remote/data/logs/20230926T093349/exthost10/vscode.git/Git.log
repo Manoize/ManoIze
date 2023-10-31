@@ -1,0 +1,67 @@
+2023-09-26 10:29:51.726 [info] Log level: Info
+2023-09-26 10:29:51.726 [info] Validating found git in: "git"
+2023-09-26 10:29:51.726 [info] Using git "2.42.0" from "git"
+2023-09-26 10:29:51.726 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-26 10:29:51.726 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2023-09-26 10:29:51.726 [info] Open repository: /workspace/mijn-website
+2023-09-26 10:29:51.726 [info] > git rev-parse --show-toplevel [8ms]
+2023-09-26 10:29:51.726 [info] > git config --get commit.template [18ms]
+2023-09-26 10:29:51.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-09-26 10:29:51.726 [info] > git status -z -uall [3ms]
+2023-09-26 10:29:51.726 [info] > git config --get commit.template [3ms]
+2023-09-26 10:29:51.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-09-26 10:29:51.726 [info] > git status -z -uall [28ms]
+2023-09-26 10:29:52.251 [info] > git config --local branch.master.github-pr-owner-number [2ms]
+2023-09-26 10:29:52.281 [info] > git config --get commit.template [15ms]
+2023-09-26 10:29:52.285 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-09-26 10:29:52.313 [info] > git status -z -uall [13ms]
+2023-09-26 10:29:52.417 [info] > git check-ignore -v -z --stdin [2ms]
+2023-09-26 10:29:53.095 [info] > git show --textconv :style.css [15ms]
+2023-09-26 10:29:53.097 [info] > git ls-files --stage -- /workspace/mijn-website/style.css [3ms]
+2023-09-26 10:29:53.113 [info] > git cat-file -s a00f316f3a0d63f3e2f7e0f53471b61c4f8ec189 [2ms]
+2023-09-26 10:30:01.145 [info] > git log --oneline --cherry master...master@{upstream} -- [3ms]
+2023-09-26 10:30:01.615 [info] > git pull --tags origin master [456ms]
+2023-09-26 10:30:01.615 [info] From https://github.com/TimmeB1/mijn-website
+ * branch            master     -> FETCH_HEAD
+2023-09-26 10:30:02.890 [info] > git ls-files --stage -- /workspace/mijn-website/style.css [3ms]
+2023-09-26 10:30:02.907 [info] > git cat-file -s a00f316f3a0d63f3e2f7e0f53471b61c4f8ec189 [2ms]
+2023-09-26 10:30:02.939 [info] > git show --textconv :style.css [2ms]
+2023-09-26 10:30:03.146 [info] > git push origin master:master [1517ms]
+2023-09-26 10:30:03.146 [info] remote: Permission to TimmeB1/mijn-website.git denied to TimmeB1.
+fatal: unable to access 'https://github.com/TimmeB1/mijn-website.git/': The requested URL returned error: 403
+2023-09-26 10:30:08.022 [info] > git config --get commit.template [13ms]
+2023-09-26 10:30:08.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-26 10:30:08.038 [info] > git status -z -uall [2ms]
+2023-09-26 10:30:10.452 [info] > git fetch [356ms]
+2023-09-26 10:30:10.480 [info] > git config --get commit.template [13ms]
+2023-09-26 10:30:10.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-26 10:30:10.495 [info] > git status -z -uall [2ms]
+2023-09-26 10:30:11.619 [info] > git config --get commit.template [12ms]
+2023-09-26 10:30:11.620 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-26 10:30:11.634 [info] > git status -z -uall [2ms]
+2023-09-26 10:30:11.716 [info] > git ls-files --stage -- /workspace/mijn-website/style.css [2ms]
+2023-09-26 10:30:11.735 [info] > git cat-file -s a00f316f3a0d63f3e2f7e0f53471b61c4f8ec189 [2ms]
+2023-09-26 10:30:11.765 [info] > git show --textconv :style.css [2ms]
+2023-09-26 10:30:13.579 [info] > git log --oneline --cherry master...master@{upstream} -- [2ms]
+2023-09-26 10:30:13.929 [info] > git pull --tags origin master [339ms]
+2023-09-26 10:30:13.929 [info] From https://github.com/TimmeB1/mijn-website
+ * branch            master     -> FETCH_HEAD
+2023-09-26 10:30:14.649 [info] > git push origin master:master [705ms]
+2023-09-26 10:30:14.649 [info] remote: Permission to TimmeB1/mijn-website.git denied to TimmeB1.
+fatal: unable to access 'https://github.com/TimmeB1/mijn-website.git/': The requested URL returned error: 403
+2023-09-26 10:30:15.198 [info] > git ls-files --stage -- /workspace/mijn-website/style.css [1ms]
+2023-09-26 10:30:15.240 [info] > git cat-file -s a00f316f3a0d63f3e2f7e0f53471b61c4f8ec189 [2ms]
+2023-09-26 10:30:15.267 [info] > git show --textconv :style.css [2ms]
+2023-09-26 10:30:17.386 [info] > git config --get commit.template [14ms]
+2023-09-26 10:30:17.387 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-26 10:30:17.401 [info] > git status -z -uall [2ms]
+2023-09-26 10:30:33.436 [info] > git log --oneline --cherry master...master@{upstream} -- [2ms]
+2023-09-26 10:30:33.802 [info] > git pull --tags origin master [354ms]
+2023-09-26 10:30:33.802 [info] From https://github.com/TimmeB1/mijn-website
+ * branch            master     -> FETCH_HEAD
+2023-09-26 10:30:34.504 [info] > git push origin master:master [688ms]
+2023-09-26 10:30:34.504 [info] remote: Permission to TimmeB1/mijn-website.git denied to TimmeB1.
+fatal: unable to access 'https://github.com/TimmeB1/mijn-website.git/': The requested URL returned error: 403
+2023-09-26 10:30:35.075 [info] > git ls-files --stage -- /workspace/mijn-website/style.css [2ms]
+2023-09-26 10:30:35.095 [info] > git cat-file -s a00f316f3a0d63f3e2f7e0f53471b61c4f8ec189 [2ms]
+2023-09-26 10:30:35.127 [info] > git show --textconv :style.css [2ms]

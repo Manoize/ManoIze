@@ -1,0 +1,61 @@
+2023-09-29 08:18:47.118 [info] 
+
+
+
+
+2023-09-29 08:18:47.145 [info] Extension host agent started.
+2023-09-29 08:18:47.191 [info] Extension 'github.vscode-pull-request-github' v0.72.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2023-09-29 08:18:48.247 [info] [192.168.29.71][b7ed076c][ManagementConnection] New connection established.
+2023-09-29 08:18:48.649 [info] Installing builtin extension 'gitpod.gitpod-theme'...
+2023-09-29 08:18:48.822 [info] Getting Manifest... gitpod.gitpod-theme
+2023-09-29 08:18:49.071 [info] Installing extension: gitpod.gitpod-theme
+2023-09-29 08:18:49.575 [info] Extension installed successfully: gitpod.gitpod-theme
+2023-09-29 08:18:49.579 [info] Extension 'gitpod.gitpod-theme' v0.0.2 was successfully installed.
+2023-09-29 08:18:53.615 [warning] Skipping extension /ide/extensions/gitpod.gitpod-theme in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2023-09-29 08:18:53.633 [info] [192.168.227.139][f35f2d78][ExtensionHostConnection] New connection established.
+2023-09-29 08:18:53.640 [info] [192.168.227.139][f35f2d78][ExtensionHostConnection] <761> Launched Extension Host Process.
+2023-09-29 09:00:15.110 [info] [192.168.29.71][b7ed076c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-29 09:00:15.111 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.113 [error] Error: Throttler is disposed
+    at c.queue (/ide/out/vs/server/node/server.main.js:70:10886)
+    at /ide/out/vs/server/node/server.main.js:70:12470
+    at /ide/out/vs/server/node/server.main.js:70:12106
+2023-09-29 09:00:15.158 [info] [192.168.227.139][f35f2d78][ExtensionHostConnection] <761> Extension Host Process exited with code: 0, signal: null.

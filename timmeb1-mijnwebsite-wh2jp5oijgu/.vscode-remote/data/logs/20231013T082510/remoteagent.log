@@ -1,0 +1,39 @@
+2023-10-13 08:25:10.114 [info] 
+
+
+
+
+2023-10-13 08:25:10.134 [info] Extension host agent started.
+2023-10-13 08:25:10.178 [info] Extension 'github.vscode-pull-request-github' v0.72.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'github.vscode-pull-request-github@1.2.3'.
+2023-10-13 08:25:11.127 [info] [192.168.223.140][23eb4ab9][ManagementConnection] New connection established.
+2023-10-13 08:25:11.389 [info] Installing builtin extension 'gitpod.gitpod-theme'...
+2023-10-13 08:25:11.582 [info] Getting Manifest... gitpod.gitpod-theme
+2023-10-13 08:25:11.860 [info] Installing extension: gitpod.gitpod-theme
+2023-10-13 08:25:12.231 [info] Extension installed successfully: gitpod.gitpod-theme
+2023-10-13 08:25:12.234 [info] Extension 'gitpod.gitpod-theme' v0.0.2 was successfully installed.
+2023-10-13 08:25:23.514 [info] [192.168.223.140][a57e6742][ExtensionHostConnection] New connection established.
+2023-10-13 08:25:23.532 [info] [192.168.223.140][a57e6742][ExtensionHostConnection] <759> Launched Extension Host Process.
+2023-10-13 08:25:23.536 [warning] Skipping extension /ide/extensions/gitpod.gitpod-theme in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2023-10-13 08:25:25.185 [info] Getting Manifest... github.vscode-pull-request-github
+2023-10-13 08:25:25.470 [info] Installing extension: github.vscode-pull-request-github
+2023-10-13 08:25:26.883 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2023-10-13 08:25:26.966 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.74.0-universal: github.vscode-pull-request-github
+2023-10-13 08:25:26.982 [info] Renamed to /workspace/.vscode-remote/extensions/github.vscode-pull-request-github-0.74.0-universal
+2023-10-13 08:25:26.987 [info] Extracting extension completed. github.vscode-pull-request-github
+2023-10-13 08:25:26.995 [info] Extension installed successfully: github.vscode-pull-request-github
+2023-10-13 08:25:27.005 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.72.0-universal
+2023-10-13 08:30:22.570 [info] Getting Manifest... mhutchie.git-graph
+2023-10-13 08:30:22.853 [info] Installing extension: mhutchie.git-graph
+2023-10-13 08:30:23.860 [info] Extension signature verification is not done: mhutchie.git-graph
+2023-10-13 08:30:23.943 [info] Extracted extension to file:///workspace/.vscode-remote/extensions/mhutchie.git-graph-1.30.0-universal: mhutchie.git-graph
+2023-10-13 08:30:23.947 [info] Renamed to /workspace/.vscode-remote/extensions/mhutchie.git-graph-1.30.0-universal
+2023-10-13 08:30:23.949 [info] Extracting extension completed. mhutchie.git-graph
+2023-10-13 08:30:23.954 [info] Extension installed successfully: mhutchie.git-graph
+2023-10-13 08:30:45.710 [info] [192.168.223.140][23eb4ab9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-13 08:30:45.754 [info] [192.168.223.140][a57e6742][ExtensionHostConnection] <759> Extension Host Process exited with code: 0, signal: null.
+2023-10-13 08:30:52.578 [info] [192.168.227.139][88915a17][ManagementConnection] New connection established.
+2023-10-13 08:30:53.047 [info] [192.168.223.140][8c73b7b2][ExtensionHostConnection] New connection established.
+2023-10-13 08:30:53.094 [info] [192.168.223.140][8c73b7b2][ExtensionHostConnection] <1275> Launched Extension Host Process.
+2023-10-13 08:30:53.234 [warning] Skipping extension /ide/extensions/gitpod.gitpod-theme in favour of the builtin extension /ide/extensions/gitpod.gitpod-theme.
+2023-10-13 09:00:42.405 [info] [192.168.227.139][88915a17][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-13 09:00:42.455 [info] [192.168.223.140][8c73b7b2][ExtensionHostConnection] <1275> Extension Host Process exited with code: 0, signal: null.
